@@ -1,14 +1,12 @@
 import Nav from "./layouts/navbar";
 import "./App.css";
-import Home from './component/home'
+import Hero from './component/hero'
 
 function App() {
   return (
     <>
-      <div className="grid justify-items-center">
           <Nav />
-          <Home />
-      </div>
+          <Hero />
     </>
   );
 }
