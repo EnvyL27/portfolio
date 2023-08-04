@@ -1,0 +1,43 @@
+.handwave {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: handwaveAnimation 2s infinite;
+  }
+  
+  @keyframes handwaveAnimation {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(30deg);
+    }
+  }
+
+  .text-link {
+    position: relative;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .text-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #333;
+    transition: width 0.3s;
+  }
+  
+  .text-link:hover {
+    
+  }
+  
+  .text-link:hover::after {
+    width: 100%;
+  }
+
+  

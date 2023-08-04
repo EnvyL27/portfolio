@@ -1,12 +1,16 @@
 import Nav from "./layouts/navbar";
 import "./App.css";
-import Hero from './component/hero'
+import Hero from "./component/hero";
+import Footer from "./layouts/footer";
 
 function App() {
   return (
     <>
-          <Nav />
-          <Hero />
+      <nav className="bg-white-transparent">
+        <Nav />
+      </nav>
+      <Hero />
+      <Footer />
     </>
   );
 }
