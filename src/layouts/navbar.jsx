@@ -1,16 +1,17 @@
 import './../css/animation.css'
+import './../css/style.css'
 
 function navbar() {
   return (
     <>
-      <div className="fixed navbar lg:py-4 lg:px-24 bg-gray-100">
+      <div className="z-50 fixed navbar lg:py-4 lg:px-24 bg-transparent">
         <div className="lg:navbar-start max-lg:hidden">
           <a href="#" className="text-center column-1">
-            <div className="w-full font-bold text-md text-gray-900">
+            <div className="bg-blend-difference logo w-full font-bold text-md text-gray-900">
               AHMAD FARREL
             </div>
-            <div className="text-sm font-semibold text-gray-800">
-              Frontend Developer
+            <div className="text-xs font-semibold text-gray-800">
+              FRONTEND DEVELOPER
             </div>
           </a>
         </div>
@@ -58,38 +59,38 @@ function navbar() {
         </div>
         <div className="md:hidden max-sm:navbar-center max-sm:pr-10 ">
           <a className="btn btn-ghost column-1">
-            <div className="w-full text-sm text-gray-900">Ahmad Farrel</div>
-            <div className="text-xs text-gray-800">Frontend Developer</div>
+            <div className="w-full text-sm text-gray-900">AHMAD FARREL</div>
+            <div className="text-xs text-gray-800">FRONTEND DEVELOPER</div>
           </a>
         </div>
 
-        <div className="navbar-end container hidden lg:flex   text-gray-900 capitalize dark:text-gray-900">
+        <div className="navbar-end container hidden lg:flex  text-gray-900 capitalize dark:text-gray-900">
           <a
             href="#"
-            className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
+            className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6 bg-blend-difference" 
           >
-            home
+            HOME
           </a>
 
           <a
             href="#"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
           >
-            features
+            ABOUT
           </a>
 
           <a
             href="#"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
           >
-            pricing
+            PROJECT
           </a>
 
           <a
             href="#"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
           >
-            blog
+            CONTACT
           </a>
         </div>
       </div>

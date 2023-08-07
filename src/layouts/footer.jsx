@@ -1,12 +1,14 @@
+import './../css/animation.css'
+
 function footer() {
   return (
     <>
       <footer className="footer footer-center p-10 bg-gray-300 text-gray-900 rounded">
         <div className="grid grid-flow-col gap-4">
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <a className="text-link ">Home</a>
+          <a className="text-link">About</a>
+          <a className="text-link">Project</a>
+          <a className="text-link">Contact</a>
         </div>
         <div>
           <div className="grid grid-flow-col gap-4">
@@ -46,7 +48,7 @@ function footer() {
           </div>
         </div>
         <div>
-          <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+          <p>Copyright © 2023 - All right reserved by Ahmad Farrel</p>
         </div>
       </footer>
     </>
