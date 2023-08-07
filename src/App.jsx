@@ -4,6 +4,7 @@ import Hero from "./component/hero";
 import Footer from "./layouts/footer";
 import Content from "./component/content";
 import Tools from "./component/tools";
+import Port from "./component/portfolio";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <div>
         <Hero />
         <Content />
-        <Tools />
+        <Port />
+        {/* <Tools /> */}
       </div>
       <Footer />
     </>
