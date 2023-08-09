@@ -14,14 +14,15 @@ function hero() {
                 text.textContent = "Fullstack Developer";
              }, 0); 
              setTimeout(() => {
-                text.textContent = "Video Editor";
+                text.textContent = "UI/UX Designer";
              }, 4000); 
              setTimeout(() => {
-                text.textContent = "Artist";
+                text.textContent = "Video Editor";
              }, 8000); 
         }
 
         textLoad();
+        setInterval(textLoad, 12000);
     })
     return (
         <>
