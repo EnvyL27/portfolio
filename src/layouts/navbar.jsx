@@ -22,11 +22,11 @@ function navbar() {
         <div className="lg:navbar-start max-lg:hidden">
           <a href="#" className="text-center column-1">
             <div className="bg-blend-difference logo w-full font-bold text-md text-gray-900">
-              AHMAD FARREL
+              UGLYSQUID
             </div>
-            <div className="text-xs font-semibold text-gray-800">
+            {/* <div className="text-xs font-semibold text-gray-800">
               FRONTEND DEVELOPER
-            </div>
+            </div> */}
           </a>
         </div>
         <div className="navbar-start">
