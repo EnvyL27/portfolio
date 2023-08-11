@@ -15,8 +15,8 @@ function App() {
       <div>
         <Hero />
         <Content />
-        <Port />
-        {/* <Tools /> */}
+        {/* <Port /> */}
+        <Tools />
       </div>
       <Footer />
     </>

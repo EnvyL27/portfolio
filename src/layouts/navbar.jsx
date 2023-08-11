@@ -1,7 +1,21 @@
+import React,{useEffect} from 'react';
 import './../css/animation.css'
 import './../css/style.css'
+React
 
 function navbar() {
+  useEffect(() => {
+    window.addEventListener("scroll", function() {
+      const navbar = document.querySelector(".navbar");
+      if (window.scrollY > 0) {
+          navbar.classList.add("bg-gray-100"); 
+          navbar.classList.remove("bg-transparent");
+      } else {
+          navbar.classList.remove("bg-gray-700");
+          navbar.classList.add("bg-transparent");
+      }
+  });
+  })
   return (
     <>
       <div className="z-50 fixed navbar lg:py-4 lg:px-24 bg-transparent">

@@ -17,8 +17,25 @@ function content() {
                             <h2 className="mt-4 text-xl font-bold text-gray-800">Web Developer</h2>
 
                             <p className="mt-1 text-sm text-gray-600">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-                                possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+                                "I create websites by blending design and technology to deliver engaging and user-friendly online experiences."
+                            </p>
+                        </a>
+
+                        
+                        <a
+                            className="grid justify-items-center text-center"
+                            href="/"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" className="stroke-1 text-indigo-600" fill="currentColor" height="40px" viewBox="0 0 32 32">
+                                <path d="M20,20.854c0-1.136,0.642-2.175,1.658-2.683L24,17L17,3h-2L8,17l2.342,1.171
+	                            C11.358,18.679,12,19.718,12,20.854V21h-2v8h12v-8h-2V20.854z M11.236,16.382l-0.553-0.276L15,7.472V15h2V7.472l4.317,8.633
+	                            l-0.553,0.276C19.059,17.234,18,18.948,18,20.854V21h-4v-0.146C14,18.948,12.941,17.234,11.236,16.382z M20,27h-8v-4h8V27z" stroke="currentColor"/>
+                            </svg>
+
+                            <h2 className="mt-4 text-xl font-bold text-gray-800">UI/UX Designer</h2>
+
+                            <p className="mt-1 text-sm text-gray-600">
+                                "I craft captivating digital interfaces that seamlessly merge aesthetics and user-centric design, enhancing the overall user experience."
                             </p>
                         </a>
 
@@ -37,28 +54,9 @@ function content() {
                             <h2 className=" mt-4 text-xl font-bold text-gray-800">Video Editor</h2>
 
                             <p className="mt-1 text-sm text-gray-600">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-                                possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+                                "I weave visual stories by skillfully editing and arranging video footage, creating compelling and impactful content."
                             </p>
 
-                        </a>
-
-                        <a
-                            className="grid justify-items-center text-center"
-                            href="/"
-                        >
-                            <svg xmlns="http://www.w3.org/2000/svg" className="stroke-1 text-indigo-600" fill="currentColor" height="40px" viewBox="0 0 32 32">
-                                <path d="M20,20.854c0-1.136,0.642-2.175,1.658-2.683L24,17L17,3h-2L8,17l2.342,1.171
-	                            C11.358,18.679,12,19.718,12,20.854V21h-2v8h12v-8h-2V20.854z M11.236,16.382l-0.553-0.276L15,7.472V15h2V7.472l4.317,8.633
-	                            l-0.553,0.276C19.059,17.234,18,18.948,18,20.854V21h-4v-0.146C14,18.948,12.941,17.234,11.236,16.382z M20,27h-8v-4h8V27z" stroke="currentColor"/>
-                            </svg>
-
-                            <h2 className="mt-4 text-xl font-bold text-gray-800">Artist</h2>
-
-                            <p className="mt-1 text-sm text-gray-600">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-                                possimus adipisci distinctio alias voluptatum blanditiis laudantium.
-                            </p>
                         </a>
 
                     </div>
