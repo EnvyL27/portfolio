@@ -20,18 +20,12 @@ function tools() {
         </div>
       </div>
       <div  className="flex items-start gap-2 mt-10 lg:px-48 justify-evenly max-md:flex-wrap">
-        <div className='w-full text-center ' >
+        <div className='w-full text-center items-center' >
           <p className='text-xl font-bold text-center text-gray-800'>Web Developer</p>
-          <div className="grid grid-cols-3 gap-3 mt-6 mt-14 place-items-center">
-            <div className="flex justify-center duration-300 ease-in-out cursor-pointer tooltip tooltip-top filter grayscale hover:scale-102 hover:filter-none " data-tip="html">
-              <img src={Html} alt="" className=' w-[50%]' />
-            </div>
-            <div className="flex justify-center duration-300 ease-in-out cursor-pointer tooltip tooltip-top filter grayscale hover:scale-102 hover:filter-none" data-tip="css">
-              <img src={Css} alt="" className=' w-[50%]' />
-            </div>
-            <div className="flex justify-center duration-300 ease-in-out cursor-pointer tooltip tooltip-top filter grayscale hover:scale-102 hover:filter-none" data-tip="JavaScript">
-              <img src={Js} alt="" className=' w-[50%]' />
-            </div>
+          <div className="grid grid-cols-3 gap-3 mt-14 place-items-center">
+              <img src={Html} alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[50%]' />
+              <img src={Css} alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[50%]' />
+              <img src={Js} alt=""className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[50%]'/>
             
           </div>
         </div>
