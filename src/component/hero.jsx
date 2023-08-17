@@ -28,16 +28,20 @@ function hero() {
         <>
             <div className="hero z-10 min-h-screen bg-gray-100">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div className="w-2/5 pl-20">
+                    <div className="w-2/5 pl-20 hidden lg:block">
                         <img className="grayscale hover:grayscale-0 duration-300" src={Me} alt="" />
                     </div>
                     <div className="w-3/5">
                         <div className="flex">
                             <h1 className=" text-5xl font-bold text-gray-900 py-4">My Name is Ahmad Farrel</h1>
                         </div>
-                        <div className="container">
+                        <div className="container hidden lg:block">
                             <span className="text first-text">I'm a </span>
                             <span className="text sec-text"></span>
+                        </div>
+                        <div className="container hidden max-sm:block">
+                            <span className="text first-text">I'm a </span>
+                            <span className="text ">Student</span>
                         </div>
                         {/* <h1 className="text sec-text text-4xl font-bold text-gray-900 py-6"> </h1> */}
                         {/* <p className="py-4 font-medium text-gray-800">
