@@ -71,14 +71,14 @@ function navbar() {
             </ul>
           </div>
         </div>
-        <div className="md:hidden max-sm:navbar-center max-sm:pr-10 ">
+        <div className="md:hidden max-sm:navbar-center overflow-hidden">
           <a className="btn btn-ghost column-1">
             <div className="w-full text-sm text-gray-900">AHMAD FARREL</div>
             <div className="text-xs text-gray-800">FRONTEND DEVELOPER</div>
           </a>
         </div>
 
-        <div className="navbar-end container hidden lg:flex  text-gray-900 capitalize dark:text-gray-900">
+        <div className="navbar-end container hidden lg:flex  text-gray-900 capitalize dark:text-gray-700">
           <a
             href="#"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6 bg-blend-difference" 
