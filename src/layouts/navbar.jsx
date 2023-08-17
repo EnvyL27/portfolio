@@ -71,10 +71,9 @@ function navbar() {
             </ul>
           </div>
         </div>
-        <div className="md:hidden max-sm:navbar-center overflow-hidden">
+        <div className="md:hidden max-sm:navbar-end overflow-hidden">
           <a className="btn btn-ghost column-1">
-            <div className="w-full text-sm text-gray-900">AHMAD FARREL</div>
-            <div className="text-xs text-gray-800">FRONTEND DEVELOPER</div>
+            <div className="bg-blend-difference logo w-full font-bold text-md text-gray-900 hover:text-gray-600">UGLYSQUID</div>
           </a>
         </div>
 
