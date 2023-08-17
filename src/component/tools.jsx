@@ -40,9 +40,9 @@ function tools() {
         </div>
         <div class="divider divider-horizontal  max-md:hidden"></div>
         <div className="divider md:hidden"></div>
-        <div className='w-full text-center ' >
+        <div className='w-full text-center items-center' >
           <p className='text-xl font-bold text-gray-800 '>Video Editing</p>
-          <div className="grid grid-cols-3 gap-3 mt-14 ">
+          <div className="grid grid-cols-3 gap-3 mt-14 place-items-center">
             <img src={Prm} alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[50%]' />
             <img src={Ae} alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[50%]' />
           </div>
