@@ -10,7 +10,7 @@ import Fm from "./../../public/figma.png";
 function tools() {
   return (
     <>
-    <div className='bg-gray-100 py-6'>
+    <div className='bg-gray-100 py-6 pb-28'>
       <div className="title">
         <div className="text-3xl text-gray-800 font-extrabold text-center font-montserrat">
           My Expertise

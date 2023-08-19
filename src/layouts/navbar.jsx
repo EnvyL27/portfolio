@@ -49,24 +49,27 @@ function navbar() {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="mr-8 enu menu-sm dropdown-content mt-1 z-[1] p-2 shadow bg-indigo-400 w-52 text-base-100 font-semibold"
             >
               <li>
-                <a>Item 1</a>
+                <a>HOME</a>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
+                <a>ABOUT</a>
+                {/* <ul className="p-2">
                   <li>
                     <a>Submenu 1</a>
                   </li>
                   <li>
                     <a>Submenu 2</a>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
-                <a>Item 3</a>
+                <a>PROJECT</a>
+              </li>
+              <li>
+                <a>CONTACT</a>
               </li>
             </ul>
           </div>
