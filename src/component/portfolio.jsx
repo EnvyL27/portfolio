@@ -52,7 +52,7 @@ function portfolio() {
       <img src={Tx} alt=""  />
 
         <div>
-          <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+          <h2 class="text-lg font-bold text-gray-800">Taxi.</h2>
 
           <p class="mt-1 text-sm text-gray-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
@@ -66,9 +66,9 @@ function portfolio() {
       <img src={Ms} alt=""  />
 
         <div>
-          <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+          <h2 class="text-lg font-bold text-gray-800">Maissy.</h2>
 
-          <p class="mt-1 text-sm text-gray-300">
+          <p class="mt-1 text-sm text-gray-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
             cumque tempore est ab possimus quisquam reiciendis tempora animi!
             Quaerat, saepe?
@@ -82,7 +82,7 @@ function portfolio() {
         <div>
           <h2 class="text-lg font-bold text-gray-800">Absensi.</h2>
 
-          <p class="mt-1 text-sm text-gray-300">
+          <p class="mt-1 text-sm text-gray-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
             cumque tempore est ab possimus quisquam reiciendis tempora animi!
             Quaerat, saepe?
