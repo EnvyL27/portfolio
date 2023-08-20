@@ -1,18 +1,16 @@
 function portfolio() {
   return (
     <>
-    <section class="bg-gray-900 text-white">
-  <div class="max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-    <div class="max-w-xl">
-      <h2 class="text-3xl font-bold sm:text-4xl">What makes us special</h2>
-
-      <p class="mt-4 text-gray-300">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-        dolores iure fugit totam iste obcaecati. Consequatur ipsa quod ipsum
-        sequi culpa delectus, cumque id tenetur quibusdam, quos fuga minima.
+    <section class="bg-gray-100 text-white">
+  <div class=" px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+    <div class="flex justify-center items-center text-gray-800">
+      <h2 class="text-3xl font-bold sm:text-4xl">Creative Endeavors</h2>
+    </div>
+    <div class="flex justify-center items-center">
+    <p class="mt-4 text-gray-500">
+        Welcome to my "Creative Endeavors". Within this portfolio, you'll discover a collection of meticulously crafted web projects that embody the essence of modern online experiences.
       </p>
     </div>
-
     <div
       class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3"
     >
