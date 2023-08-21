@@ -11,6 +11,14 @@ function content() {
         <>
             <section className="bg-gray-100 text-gray-800 h-screen">
                 <div className='pt-24 px-20'>
+                    <div class="flex justify-center items-center text-gray-800">
+                        <h2 class="text-3xl font-bold sm:text-4xl">Creative Endeavors</h2>
+                    </div>
+                    <div class="flex justify-center items-center text-center">
+                        <p class="mt-4 text-gray-500">
+                            Welcome to my "Creative Endeavors". Within this portfolio, you'll discover a collection of meticulously crafted web projects that embody the essence of modern online experiences.
+                        </p>
+                    </div>
                     <div class="main">
                         <ul class="cardds">
                             <li class="cardds_item">
@@ -93,7 +101,7 @@ function content() {
                                     </div>
                                 </div>
                             </li>
-                            
+
                         </ul>
                     </div>
                 </div>

@@ -26,11 +26,11 @@ function portfolio() {
               <div>
                 <h2 class="text-lg font-bold text-gray-800">Solvevisual</h2>
 
-                <p class="mt-1 text-sm text-gray-600">
+                {/* <p class="mt-1 text-sm text-gray-600">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
                   cumque tempore est ab possimus quisquam reiciendis tempora animi!
                   Quaerat, saepe?
-                </p>
+                </p> */}
                 <div className='flex flex-rows gap-4 py-4'>
                   <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Angular</span>
                   <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Tailwind</span>
@@ -44,11 +44,11 @@ function portfolio() {
               <div>
                 <h2 class="text-lg font-bold text-gray-800">USFootwear</h2>
 
-                <p class="mt-1 text-sm text-gray-600">
+                {/* <p class="mt-1 text-sm text-gray-600">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
                   cumque tempore est ab possimus quisquam reiciendis tempora animi!
                   Quaerat, saepe?
-                </p>
+                </p> */}
               </div>
               <div className='flex flex-rows gap-4 py-4'>
                   <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Laravel</span>
@@ -63,11 +63,11 @@ function portfolio() {
               <div>
                 <h2 class="text-lg font-bold text-gray-800">NavigaRide</h2>
 
-                <p class="mt-1 text-sm text-gray-600">
+                {/* <p class="mt-1 text-sm text-gray-600">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
                   cumque tempore est ab possimus quisquam reiciendis tempora animi!
                   Quaerat, saepe?
-                </p>
+                </p> */}
               </div>
               <div className='flex flex-rows gap-4 py-4'>
                   <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Angular</span>
