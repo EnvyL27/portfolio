@@ -1,6 +1,8 @@
 // import Bg from "../../public/blurry-gradient-haikei.png";
-import Me from "../../public/IMG_5291.jpg";
+import Bg from "../../public/bg.jpg";
+import Nobg from "../../public/nobg.png";
 import { Link } from "react-router-dom";
+import './../css/card.css'
 
 function content() {
     return (
@@ -8,7 +10,14 @@ function content() {
             <div className="hero z-10 min-h-screen bg-gray-100">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="w-2/5 pl-20 hidden lg:block">
-                        <img className="grayscale hover:grayscale-0 duration-300" src={Me} alt="" />
+                    <a href="https://www.mythrillfiction.com/the-dark-rider" alt="Mythrill" target="_blank">
+                            <div class="card">
+                                <div class="wrapper">
+                                    <img src={Bg} class="cover-image grayscale hover:grayscale-0" />
+                                </div>
+                                <img src={Nobg} class="character" />
+                            </div>
+                        </a>
                     </div>
                     <div className="w-3/5">
                         <div className="grid grid-cols-1">
@@ -16,7 +25,7 @@ function content() {
                             <p className="text-xl hidden lg:block text-gray-900 py-4"> I'm in the thick of my web development journey at <Link to="https://www.polinema.ac.id/"><span className="text-indigo-600 font-medium">State Polytechnic of Malang</span></Link>, currently cruising through my 7th semester. Beyond the world of coding and design, I'm a gamer at heart, there's something about those digital landscapes that sparks my creativity and keeps me exploring. I'm all about soaking up knowledge too; you'll often find me glued to video tutorials, fine-tuning my skills and staying ahead of the curve with the latest industry trends. Right now, I'm diving headfirst into the real-world web development scene through an internship at <Link to="https://www.aio.co.id/"><span className="text-indigo-600 font-medium">PT Amerta Indah Otsuka</span></Link>, where I'm weaving together the insights from my studies with hands-on experience!</p>
 
                             <p className="text-xl hidden max-sm:block text-gray-900 py-4">
-                                I'm in my seventh semester at <Link to="https://www.polinema.ac.id/"><span className="text-indigo-600 font-medium">State Polytechnic of Malang</span></Link>, immersed in web development. A gaming enthusiast and knowledge seeker, I'm diving into real-world web development via an internship at <Link to="https://www.aio.co.id/"><span className="text-indigo-600 font-medium">PT Amerta Indah Otsuka</span></Link>, blending studies with hands-on experience.</p>
+                                I'm in my 7th semester at <Link to="https://www.polinema.ac.id/"><span className="text-indigo-600 font-medium">State Polytechnic of Malang</span></Link>, immersed in web development. A gaming enthusiast and knowledge seeker, I'm diving into real-world web development via an internship at <Link to="https://www.aio.co.id/"><span className="text-indigo-600 font-medium">PT Amerta Indah Otsuka</span></Link>, blending studies with hands-on experience.</p>
 
                         </div>
 
