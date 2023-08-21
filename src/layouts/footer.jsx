@@ -5,10 +5,10 @@ function footer() {
     <>
       <footer className="footer footer-center p-10 bg-gray-300 text-gray-900 rounded">
         <div className="grid grid-flow-col gap-4">
-          <a className="text-link ">Home</a>
-          <a className="text-link">About</a>
-          <a className="text-link">Project</a>
-          <a className="text-link">Contact</a>
+          <Link to='/' className="text-link ">Home</Link>
+          <Link to='/about' className="text-link">About</Link>
+          <Link to='project' className="text-link">Project</Link>
+          <Link to='/contact' className="text-link">Contact</Link>
         </div>
         <div>
           <div className="grid grid-flow-col gap-4">
