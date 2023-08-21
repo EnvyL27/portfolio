@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react';
-import { Link } from "react-router-native";
+import { Link } from "react-router-dom";
 import './../css/animation.css'
 import './../css/style.css'
 React
@@ -82,17 +82,17 @@ function navbar() {
         </div>
 
         <div className="navbar-end container hidden lg:flex  text-gray-900 capitalize dark:text-gray-700">
-          <link to="/"
+          <Link to="/"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6 bg-blend-difference" 
           >
             HOME
-          </link>
+          </Link>
 
-          <link to="about"
+          <Link to="about"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
           >
             ABOUT
-          </link>
+          </Link>
 
           <a
             href="project"
