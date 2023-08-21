@@ -21,12 +21,12 @@ function portfolio() {
       class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3"
     >
       <div class=" items-start gap-4 class">
-         <img src={Sv} alt=""  />
+         <img src={Sv} alt=""  className='pb-8' />
 
         <div>
           <h2 class="text-lg font-bold text-gray-800">Solvevisual.</h2>
 
-          <p class="mt-1 text-sm text-gray-500">
+          <p class="mt-1 text-sm text-gray-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
             cumque tempore est ab possimus quisquam reiciendis tempora animi!
             Quaerat, saepe?
@@ -35,12 +35,12 @@ function portfolio() {
       </div>
 
       <div class=" items-start gap-4">
-      <img src={Us} alt=""  />
+      <img src={Us} alt="" className='pb-8' />
 
         <div>
-          <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+          <h2 class="text-lg font-bold text-gray-800">USFootwear.</h2>
 
-          <p class="mt-1 text-sm text-gray-300">
+          <p class="mt-1 text-sm text-gray-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
             cumque tempore est ab possimus quisquam reiciendis tempora animi!
             Quaerat, saepe?
@@ -49,12 +49,12 @@ function portfolio() {
       </div>
 
       <div class=" items-start gap-4">
-      <img src={Tx} alt=""  />
+      <img src={Tx} alt=""  className='pb-8' />
 
         <div>
           <h2 class="text-lg font-bold text-gray-800">Taxi.</h2>
 
-          <p class="mt-1 text-sm text-gray-300">
+          <p class="mt-1 text-sm text-gray-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
             cumque tempore est ab possimus quisquam reiciendis tempora animi!
             Quaerat, saepe?
@@ -63,7 +63,7 @@ function portfolio() {
       </div>
 
       <div class=" items-start gap-4">
-      <img src={Ms} alt=""  />
+      <img src={Ms} alt=""  className='pb-8' />
 
         <div>
           <h2 class="text-lg font-bold text-gray-800">Maissy.</h2>
@@ -77,7 +77,7 @@ function portfolio() {
       </div>
 
       <div class=" items-start gap-4">
-      <img src={Ab} alt=""  />
+      <img src={Ab} alt=""  className='pb-8' />
 
         <div>
           <h2 class="text-lg font-bold text-gray-800">Absensi.</h2>
