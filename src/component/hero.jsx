@@ -39,7 +39,7 @@ function hero() {
                             <h1 className="hidden lg:block text-5xl font-bold text-gray-900 py-4">My Name is Ahmad Farrel</h1>
                             <h1 className="hidden max-sm:block text-5xl font-bold text-gray-900 py-4">Hello! I'm <span className="text-indigo-500">Ahmad Farrel</span></h1>
                         </div>
-                        <div className="container hidden lg:block">
+                        <div className="container pb-4 hidden lg:block">
                             <span className="text first-text">I'm a </span>
                             <span className="text sec-text"></span>
                         </div>
@@ -49,10 +49,10 @@ function hero() {
                             Currently a student at <a className="text-indigo-700 hover:text-indigo-400 duration-200" href="https://www.polinema.ac.id">State Polytechnic of Malang</a> and doing
                             internship at <a href="https://www.aio.co.id" className="text-indigo-700 hover:text-indigo-400 duration-200">PT. Amerta Indah Otsuka!</a> 
                         </p> */}
-                        <a href="#_" className="relative inline-block px-4 py-2 font-medium group">
+                        <a href="/about" className="relative inline-block px-4 py-2 font-medium group">
                             <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                             <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
-                            <span className="relative text-black group-hover:text-white">Download CV</span>
+                            <span className="relative text-black group-hover:text-white">See more</span>
                         </a>
                     </div>
                 </div>
