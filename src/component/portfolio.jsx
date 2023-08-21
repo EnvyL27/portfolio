@@ -7,62 +7,69 @@ import Ab from './../assets/absensi.png'
 function portfolio() {
   return (
     <>
-    <section class="bg-gray-100 text-white">
-  <div class=" px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-    <div class="flex justify-center items-center text-gray-800">
-      <h2 class="text-3xl font-bold sm:text-4xl">Creative Endeavors</h2>
-    </div>
-    <div class="flex justify-center items-center text-center">
-    <p class="mt-4 text-gray-500">
-        Welcome to my "Creative Endeavors". Within this portfolio, you'll discover a collection of meticulously crafted web projects that embody the essence of modern online experiences.
-      </p>
-    </div>
-    <div
-      class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3"
-    >
-      <div class=" items-start gap-4 class">
-         <img src={Sv} alt=""  className='pb-8' />
+      <section class="bg-gray-100 text-white">
+        <div class=" px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+          <div class="flex justify-center items-center text-gray-800">
+            <h2 class="text-3xl font-bold sm:text-4xl">Creative Endeavors</h2>
+          </div>
+          <div class="flex justify-center items-center text-center">
+            <p class="mt-4 text-gray-500">
+              Welcome to my "Creative Endeavors". Within this portfolio, you'll discover a collection of meticulously crafted web projects that embody the essence of modern online experiences.
+            </p>
+          </div>
+          <div
+            class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3"
+          >
+            <div class=" items-start gap-4 class">
+              <img src={Sv} alt="" className='pb-8' />
 
-        <div>
-          <h2 class="text-lg font-bold text-gray-800">Solvevisual.</h2>
+              <div>
+                <h2 class="text-lg font-bold text-gray-800">Solvevisual.</h2>
 
-          <p class="mt-1 text-sm text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-            cumque tempore est ab possimus quisquam reiciendis tempora animi!
-            Quaerat, saepe?
-          </p>
-        </div>
-      </div>
+                <p class="mt-1 text-sm text-gray-600">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                  cumque tempore est ab possimus quisquam reiciendis tempora animi!
+                  Quaerat, saepe?
+                </p>
+              </div>
+            </div>
 
-      <div class=" items-start gap-4">
-      <img src={Us} alt="" className='pb-8' />
+            <div class=" items-start gap-4">
+              <img src={Us} alt="" className='pb-8' />
 
-        <div>
-          <h2 class="text-lg font-bold text-gray-800">USFootwear.</h2>
+              <div>
+                <h2 class="text-lg font-bold text-gray-800">USFootwear.</h2>
 
-          <p class="mt-1 text-sm text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-            cumque tempore est ab possimus quisquam reiciendis tempora animi!
-            Quaerat, saepe?
-          </p>
-        </div>
-      </div>
+                <p class="mt-1 text-sm text-gray-600">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                  cumque tempore est ab possimus quisquam reiciendis tempora animi!
+                  Quaerat, saepe?
+                </p>
+              </div>
+            </div>
 
-      <div class=" items-start gap-4">
-      <img src={Tx} alt=""  className='pb-8' />
+            <div class=" items-start gap-4">
+              <img src={Tx} alt="" className='pb-8' />
 
-        <div>
-          <h2 class="text-lg font-bold text-gray-800">Taxi.</h2>
+              <div>
+                <h2 class="text-lg font-bold text-gray-800">Taxi.</h2>
 
-          <p class="mt-1 text-sm text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-            cumque tempore est ab possimus quisquam reiciendis tempora animi!
-            Quaerat, saepe?
-          </p>
-        </div>
-      </div>
-
-      <div class=" items-start gap-4">
+                <p class="mt-1 text-sm text-gray-600">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                  cumque tempore est ab possimus quisquam reiciendis tempora animi!
+                  Quaerat, saepe?
+                </p>
+              </div>
+            </div>
+            <div class=" items-start gap-4"></div>
+            <div class="flex justify-center items-center gap-4">
+            <a href="/project" className="relative inline-block px-4 py-2 font-medium group">
+              <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+              <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
+              <span className="relative text-black group-hover:text-white">See More</span>
+            </a>
+            </div>
+            {/* <div class=" items-start gap-4">
       <img src={Ms} alt=""  className='pb-8' />
 
         <div>
@@ -88,9 +95,9 @@ function portfolio() {
             Quaerat, saepe?
           </p>
         </div>
-      </div>
+      </div> */}
 
-      {/* <div class="flex items-start gap-4">
+            {/* <div class="flex items-start gap-4">
         <span class="shrink-0 rounded-lg bg-gray-800 p-4">
           <svg
             class="h-5 w-5"
@@ -122,9 +129,9 @@ function portfolio() {
           </p>
         </div>
       </div> */}
-    </div>
-  </div>
-</section>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
