@@ -10,14 +10,14 @@ function content() {
             <div className="hero z-10 min-h-screen bg-gray-100">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="w-2/5 pl-20 hidden lg:block">
-                    <a href="https://www.mythrillfiction.com/the-dark-rider" alt="Mythrill" target="_blank">
+                    <span alt="Mythrill" target="_blank">
                             <div class="card">
                                 <div class="wrapper">
                                     <img src={Bg} class="cover-image grayscale hover:grayscale-0" />
                                 </div>
                                 <img src={Nobg} class="character" />
                             </div>
-                        </a>
+                        </span>
                     </div>
                     <div className="w-3/5">
                         <div className="grid grid-cols-1">
