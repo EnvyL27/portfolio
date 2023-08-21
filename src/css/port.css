@@ -1,4 +1,4 @@
-.cards {
+.cardds {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -6,23 +6,23 @@
     padding: 0;
   }
   
-  .cards_item {
+  .cardds_item {
     display: flex;
     padding: 1rem;
   }
   
-  .card_image {
+  .cardd_image {
     position: relative;
     max-height: 250px;
   }
   
-  .card_image img {
+  .cardd_image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
   
-  .card_price {
+  .cardd_price {
     position: absolute;
     bottom: 8px;
     right: 8px;
@@ -36,7 +36,7 @@
     font-weight: 700;
   }
   
-  .card_price span {
+  .cardd_price span {
     font-size: 12px;
     margin-top: -2px;
   }
@@ -53,18 +53,18 @@
   }
   
   @media (min-width: 40rem) {
-    .cards_item {
+    .cardds_item {
       width: 50%;
     }
   }
   
   @media (min-width: 56rem) {
-    .cards_item {
+    .cardds_item {
       width: 33.3333%;
     }
   }
   
-  .card {
+  .cardd {
     background-color: white;
     border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
@@ -73,7 +73,7 @@
     overflow: hidden;
   }
   
-  .card_content {
+  .cardd_content {
     position: relative;
     padding: 16px 12px 32px 24px;
     margin: 16px 8px 8px 0;
@@ -81,20 +81,20 @@
     overflow-y: scroll;
   }
   
-  .card_content::-webkit-scrollbar {
+  .cardd_content::-webkit-scrollbar {
     width: 8px;
   }
   
-  .card_content::-webkit-scrollbar-track {
+  .cardd_content::-webkit-scrollbar-track {
     box-shadow: 0;
     border-radius: 0;
   }
   
-  .card_content::-webkit-scrollbar-thumb {
+  .cardd_content::-webkit-scrollbar-thumb {
     background: #600AFF;
   }
   
-  .card_title {
+  .cardd_title {
     position: relative;
     margin: 0 0 24px;
     padding-bottom: 10px;
@@ -103,7 +103,7 @@
     font-weight: 700;
   }
   
-  .card_title::after {
+  .cardd_title::after {
     position: absolute;
     display: block;
     width: 50px;
@@ -121,13 +121,13 @@
     border-top: 2px solid #600AFF;
   }
   
-  .card_text p {
+  .cardd_text p {
     margin: 0 0 24px;
     font-size: 14px;
     line-height: 1.5;
   }
   
-  .card_text p:last-child {
+  .cardd_text p:last-child {
     margin: 0;
   }
   

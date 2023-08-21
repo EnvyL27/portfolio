@@ -24,7 +24,7 @@ function portfolio() {
               <img src={Sv} alt="" className='pb-8' />
 
               <div>
-                <h2 class="text-lg font-bold text-gray-800">Solvevisual.</h2>
+                <h2 class="text-lg font-bold text-gray-800">Solvevisual</h2>
 
                 <p class="mt-1 text-sm text-gray-600">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
@@ -42,7 +42,7 @@ function portfolio() {
               <img src={Us} alt="" className='pb-8' />
 
               <div>
-                <h2 class="text-lg font-bold text-gray-800">USFootwear.</h2>
+                <h2 class="text-lg font-bold text-gray-800">USFootwear</h2>
 
                 <p class="mt-1 text-sm text-gray-600">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
@@ -61,7 +61,7 @@ function portfolio() {
               <img src={Tx} alt="" className='pb-8' />
 
               <div>
-                <h2 class="text-lg font-bold text-gray-800">Taxi.</h2>
+                <h2 class="text-lg font-bold text-gray-800">NavigaRide</h2>
 
                 <p class="mt-1 text-sm text-gray-600">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
