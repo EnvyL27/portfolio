@@ -37,7 +37,7 @@ function hero() {
                     <div className="w-3/5">
                         <div className="flex">
                             <h1 className="hidden lg:block text-5xl font-bold text-gray-900 py-4 pr-6">Hi!</h1>
-                            <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = "80px" />
+                            <img className="hidden lg:block" src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = "80px" />
                           
                             <h1 className="hidden max-sm:block text-5xl font-bold text-gray-900 py-4">Hello! I'm <span className="text-indigo-500">Ahmad Farrel</span></h1>
                         </div>
