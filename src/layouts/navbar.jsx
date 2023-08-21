@@ -18,7 +18,7 @@ function navbar() {
   })
   return (
     <>
-      <div className="z-50 fixed navbar lg:py-4 lg:px-24 bg-transparent">
+      <div className="z-10 fixed navbar lg:py-4 lg:px-24 bg-transparent">
         <div className="lg:navbar-start max-lg:hidden">
           <a href="#" className="text-center column-1">
             <div className="bg-blend-difference logo w-full font-bold text-md text-gray-900">
