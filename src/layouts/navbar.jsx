@@ -82,28 +82,28 @@ function navbar() {
 
         <div className="navbar-end container hidden lg:flex  text-gray-900 capitalize dark:text-gray-700">
           <a
-            href="#"
+            href="/"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6 bg-blend-difference" 
           >
             HOME
           </a>
 
           <a
-            href="#"
+            href="about"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
           >
             ABOUT
           </a>
 
           <a
-            href="#"
+            href="project"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
           >
             PROJECT
           </a>
 
           <a
-            href="#"
+            href="contact"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
           >
             CONTACT

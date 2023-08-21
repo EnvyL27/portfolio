@@ -3,22 +3,25 @@ import Me from "../../public/IMG_5291.jpg";
 import "../css/style.css";
 import "../css/animation.css";
 import { useEffect } from "react"
+import Content from "./content";
+import Tools from "./tools";
+import Port from "./portfolio";
 // import Svg from './../../public/blob-scene-haikei.svg'
 
 function hero() {
     useEffect(() => {
         const text = document.querySelector(".sec-text");
 
-        const textLoad = () =>{
-             setTimeout(() => {
+        const textLoad = () => {
+            setTimeout(() => {
                 text.textContent = "Fullstack Developer";
-             }, 0); 
-             setTimeout(() => {
+            }, 0);
+            setTimeout(() => {
                 text.textContent = "UI/UX Designer";
-             }, 4000); 
-             setTimeout(() => {
+            }, 4000);
+            setTimeout(() => {
                 text.textContent = "Video Editor";
-             }, 8000); 
+            }, 8000);
         }
 
         textLoad();
@@ -54,7 +57,10 @@ function hero() {
                     </div>
                 </div>
             </div>
-   
+            <Content />
+
+            <Tools />
+            <Port />
         </>
     );
 }
