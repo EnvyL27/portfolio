@@ -1,4 +1,5 @@
 import "./../css/animation.css";
+import { Link } from "react-router-dom";
 
 function footer() {
   return (
