@@ -36,11 +36,14 @@ function hero() {
                     </div>
                     <div className="w-3/5">
                         <div className="flex">
-                            <h1 className="hidden lg:block text-5xl font-bold text-gray-900 py-4">My Name is Ahmad Farrel</h1>
+                            <h1 className="hidden lg:block text-5xl font-bold text-gray-900 py-4 pr-6">Hi!</h1>
+                            <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = "80px" />
+                          
                             <h1 className="hidden max-sm:block text-5xl font-bold text-gray-900 py-4">Hello! I'm <span className="text-indigo-500">Ahmad Farrel</span></h1>
                         </div>
+                        <h1 className="hidden lg:block text-5xl font-bold text-gray-900 py-4">I'm Ahmad Farrel</h1>
                         <div className="container pb-4 hidden lg:block">
-                            <span className="text first-text">I'm a </span>
+                            <span className="text first-text">a </span>
                             <span className="text sec-text"></span>
                         </div>
                         {/* <h1 className="text sec-text text-4xl font-bold text-gray-900 py-6"> </h1> */}
