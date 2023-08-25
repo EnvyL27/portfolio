@@ -1,10 +1,17 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import './../css/animation.css'
 import './../css/style.css'
 React
 
 function navbar() {
+
+  const [isDropdown, setIsDropdown] = useState(false)
+
+  const handleDropdown = () => {
+    setIsDropdown(!isDropdown)
+  }
+
   useEffect(() => {
     window.addEventListener("scroll", function () {
       const navbar = document.querySelector(".navbar");
@@ -31,7 +38,7 @@ function navbar() {
           </Link>
         </div>
         <div className="navbar-start">
-          <div className="dropdown">
+          <div onClick={handleDropdown} className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,6 +55,7 @@ function navbar() {
                 />
               </svg>
             </label>
+            {isDropdown && (
             <ul
               tabIndex={0}
               className="mr-8 enu menu-sm dropdown-content mt-1 z-[1] p-2 shadow bg-indigo-400 w-52 text-base-100 font-semibold"
@@ -83,6 +91,7 @@ function navbar() {
                 </Link>
               </li>
             </ul>
+            )}
           </div>
         </div>
         <div className="md:hidden max-sm:navbar-end overflow-hidden">

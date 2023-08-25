@@ -11,22 +11,22 @@ function content() {
         <>
             <section className="bg-gray-100 text-gray-800 h-screen">
                 <div className='pt-24 px-20'>
-                    <div class="flex justify-center items-center text-gray-800">
-                        <h2 class="text-3xl font-bold sm:text-4xl">Creative Endeavors</h2>
+                    <div className="flex justify-center items-center text-gray-800">
+                        <h2 className="text-3xl font-bold sm:text-4xl">Creative Endeavors</h2>
                     </div>
-                    <div class="flex justify-center items-center text-center">
-                        <p class="mt-4 text-gray-500">
+                    <div className="flex justify-center items-center text-center">
+                        <p className="mt-4 text-gray-500">
                             Welcome to my "Creative Endeavors". Within this portfolio, you'll discover a collection of meticulously crafted web projects that embody the essence of modern online experiences.
                         </p>
                     </div>
-                    <div class="main">
-                        <ul class="cardds">
-                            <li class="cardds_item">
-                                <div class="cardd">
+                    <div className="main">
+                        <ul className="cardds">
+                            <li className="cardds_item">
+                                <div className="cardd">
                                     <img src={Sv} className='py-6 v' alt="Solvevisual." />
-                                    <div class="cardd_content">
-                                        <h2 class="cardd_title">Solvevisual</h2>
-                                        <div class="cardd_text">
+                                    <div className="cardd_content">
+                                        <h2 className="cardd_title">Solvevisual</h2>
+                                        <div className="cardd_text">
                                             <p>  Where Timeless Stories Find Their Frame
                                             </p>
                                             <p>
@@ -44,20 +44,20 @@ function content() {
                                             </p>
                                             <hr />
                                             <div className='flex flex-rows gap-4 py-4'>
-                                                <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Angular</span>
-                                                <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Tailwind</span>
+                                                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Angular</span>
+                                                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Tailwind</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </li>
 
-                            <li class="cardds_item">
-                                <div class="cardd">
+                            <li className="cardds_item">
+                                <div className="cardd">
                                     <img src={Us} className='py-6 px-6' alt="USFootwear." />
-                                    <div class="cardd_content">
-                                        <h2 class="cardd_title">USFootwear</h2>
-                                        <div class="cardd_text">
+                                    <div className="cardd_content">
+                                        <h2 className="cardd_title">USFootwear</h2>
+                                        <div className="cardd_text">
                                             <p>"USFootwear" revolutionizes ecommerce by fusing brand sophistication with cutting-edge tech.
                                                 With Laravel and Bootstrap at its core, the platform delivers fluid interactions and appealing design.
                                                 Supported by MySQL, data remains secure as users explore a curated range of premium footwear.
@@ -70,9 +70,9 @@ function content() {
                                             </p>
                                             <hr />
                                             <div className='flex flex-rows gap-4 py-4'>
-                                                <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Laravel</span>
-                                                <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Bootstrap</span>
-                                                <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">MYSQL</span>
+                                                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Laravel</span>
+                                                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Bootstrap</span>
+                                                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">MYSQL</span>
                                             </div>
                                         </div>
                                     </div>
@@ -80,22 +80,22 @@ function content() {
                             </li>
 
 
-                            <li class="cardds_item">
-                                <div class="cardd">
+                            <li className="cardds_item">
+                                <div className="cardd">
                                     <img src={Tx} className='py-6 px-6' alt="Taxi app." />
-                                    <div class="cardd_content">
-                                        <h2 class="cardd_title">NavigaRide</h2>
-                                        <div class="cardd_text">
+                                    <div className="cardd_content">
+                                        <h2 className="cardd_title">NavigaRide</h2>
+                                        <div className="cardd_text">
                                             <p>Introducing NavigaRide, a collaborative venture born from the ingenuity of me and my <Link to='https://github.com/Shankara21' className='text-indigo-400'>friend</Link>,
                                                 uniting the realms of technology and transportation. This groundbreaking taxi application,
                                                 meticulously crafted using Angular, Express.js, and MySQL, is more than just a ride-hailing platform; it's an embodiment of innovation, convenience, and connectivity.
                                             </p>
                                             <hr />
                                             <div className='flex flex-rows gap-4 py-4'>
-                                                <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Angular</span>
-                                                <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Tailwind</span>
-                                                <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">ExpressJS</span>
-                                                <span class="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">MYSQL</span>
+                                                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Angular</span>
+                                                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Tailwind</span>
+                                                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">ExpressJS</span>
+                                                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">MYSQL</span>
                                             </div>
                                         </div>
                                     </div>

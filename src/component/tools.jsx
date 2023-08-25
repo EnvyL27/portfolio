@@ -29,7 +29,7 @@ function tools() {
             
           </div>
         </div>
-        <div class="divider  divider-horizontal"></div>
+        <div className="divider  divider-horizontal"></div>
         <div className='w-full text-center items-center'  >
           <p className='text-xl font-bold text-gray-800'>UI / UX Design</p>
           <div className="grid grid-cols-3 gap-3 mt-14 place-items-center">
@@ -38,7 +38,7 @@ function tools() {
             <img src={Fm} alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[50%]' />
           </div>
         </div>
-        <div class="divider divider-horizontal  max-md:hidden"></div>
+        <div className="divider divider-horizontal  max-md:hidden"></div>
         <div className="divider md:hidden"></div>
         <div className='w-full text-center items-center' >
           <p className='text-xl font-bold text-gray-800 '>Video Editing</p>

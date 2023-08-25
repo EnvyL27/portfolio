@@ -82,7 +82,7 @@
   }
   
   .cardd_content::-webkit-scrollbar {
-    width: 8px;
+    width: 3px;
   }
   
   .cardd_content::-webkit-scrollbar-track {
