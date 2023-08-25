@@ -113,12 +113,12 @@ function contact() {
                         <div className="-mx-2 md:items-center md:flex">
                             <div className="flex-1 px-2">
                                 <label className="block mb-2 text-sm text-gray-800 ">Full Name</label>
-                                <input type="text" placeholder="your name" name="user_name" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-indigo-400 dark:focus:border-blue-400 focus:ring-indigo-400 focus:outline-none focus:ring focus:ring-opacity-40 duration-200" required value={name} onChange={(e) => setName(e.target.value)}/>
+                                <input type="text" placeholder="your name" name="user_name" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-indigo-400 focus:ring-indigo-400 focus:outline-none focus:ring focus:ring-opacity-40 duration-200" required value={name} onChange={(e) => setName(e.target.value)}/>
                             </div>
 
                             <div className="flex-1 px-2 mt-4 md:mt-0">
                                 <label className="block mb-2 text-sm text-gray-800 ">Email address</label>
-                                <input type="email" placeholder="yourname@example.com" name="user_email" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-indigo-400 dark:focus:border-blue-400 focus:ring-indigo-400 focus:outline-none focus:ring focus:ring-opacity-40 duration-200"  required value={email} onChange={(e) => setEmail(e.target.value)}/>
+                                <input type="email" placeholder="yourname@example.com" name="user_email" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-indigo-400 focus:ring-indigo-400 focus:outline-none focus:ring focus:ring-opacity-40 duration-200"  required value={email} onChange={(e) => setEmail(e.target.value)}/>
                             </div>
                         </div>
 
