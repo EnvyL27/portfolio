@@ -7,7 +7,7 @@ import './../css/card.css'
 function content() {
     return (
         <>
-            <div className="hero z-10 min-h-screen bg-gray-100 max-sm:py-12">
+            <div className="hero z-10 min-h-screen bg-gray-100 max-sm:py-12 md:pl-14">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="w-2/5 pl-20 hidden lg:block">
                     <span alt="Mythrill" target="_blank">
