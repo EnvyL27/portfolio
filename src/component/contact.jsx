@@ -1,20 +1,53 @@
 import { Link } from "react-router-dom";
 import emailjs from '@emailjs/browser';
-import React, { useRef } from 'react';
+import { React, useState } from 'react';
+import { useRef } from 'react';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
 
 function contact() {
     const form = useRef();
 
-    const sendEmail = (e) => {
+    const MySwal = withReactContent(Swal);
+
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+    const handleSubmit = (e) => {
         e.preventDefault();
-    
-        emailjs.sendForm('service_cfkw5qb', 'template_fvgfjzp', form.current, '2Ki5sC9BrEqDM3mu6')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-      };
+    emailjs
+      .send(
+        "service_cfkw5qb",
+        "template_fvgfjzp",
+        {
+          from_name: name,
+          from_email: email,
+          message: message,
+        },
+        "2Ki5sC9BrEqDM3mu6"
+      )
+      .then((response) => {
+        console.log("Email sent successfully!", response.text);
+        MySwal.fire({
+          icon: 'success',
+          title: 'Message submitted successfully',
+          text: `Your Message has been submitted successfully`,
+        });
+      })
+      .catch((error) => {
+        console.error("Error sending email:", error);
+        MySwal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Something went wrong!',
+        });
+      });
+
+      setName("");
+      setEmail("");
+      setMessage("");
+    };
 
     return (
         <>
@@ -75,8 +108,67 @@ function contact() {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-center w-full p-8 pt-0 lg:w-1/2 lg:px-12 xl:px-24 ">
-                    <form ref={form} onSubmit={sendEmail}>
+                <form onSubmit={handleSubmit}>
+              <div className="mb-6 mt-24">
+                <label
+                  htmlFor="email"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >
+                  Full Name
+                </label>
+                <input
+                  type="text"
+                  id="text"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="Your Full Name"
+                  required
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                />
+              </div>
+              <div className="mb-6">
+                <label
+                  htmlFor="password"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="Your Email"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+              <div className="mb-6">
+                <label
+                  htmlFor="password"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >
+                  Messsage
+                </label>
+                <textarea
+                  id="message"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="Your Message"
+                  required
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                className="text-white bg-gradient-to-r from-sky-400 to-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+              >
+                Submit
+              </button>
+            </form>
+
+                {/* <div className="flex flex-col justify-center w-full p-8 pt-0 lg:w-1/2 lg:px-12 xl:px-24 ">
+                    <form onSubmit={handleSubmit}>
                         <div className="-mx-2 md:items-center md:flex">
                             <div className="flex-1 px-2">
                                 <label className="block mb-2 text-sm text-gray-800 ">Full Name</label>
@@ -103,7 +195,7 @@ function contact() {
                         </div>
 
                     </form>
-                </div>
+                </div> */}
             </section>
         </>
     )
