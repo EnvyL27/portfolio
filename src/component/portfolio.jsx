@@ -1,6 +1,7 @@
 import Sv from './../assets/solvevisual.png'
 import Tx from './../assets/taxi.png'
 import Us from './../assets/usfootwear.png'
+import { Link } from "react-router-dom";
 import Ms from './../assets/maissy.png'
 import Ab from './../assets/absensi.png'
 
@@ -78,11 +79,11 @@ function portfolio() {
             </div>
             <div class=" items-start gap-4"></div>
             <div class="flex justify-center items-center gap-4">
-              <a href="/project" className="relative inline-block px-4 py-2 font-medium group">
+              <Link to="/project" className="relative inline-block px-4 py-2 font-medium group">
                 <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                 <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
                 <span className="relative text-black group-hover:text-white">See More</span>
-              </a>
+              </Link>
             </div>
             {/* <div class=" items-start gap-4">
       <img src={Ms} alt=""  className='pb-8' />
