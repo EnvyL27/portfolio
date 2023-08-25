@@ -1,6 +1,21 @@
 import { Link } from "react-router-dom";
+import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
 
 function contact() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_cfkw5qb', 'template_fvgfjzp', form.current, '2Ki5sC9BrEqDM3mu6')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
+
     return (
         <>
             <section className="min-h-screen bg-gray-100 lg:flex z-10 max-sm:pt-12">
@@ -61,22 +76,22 @@ function contact() {
                 </div>
 
                 <div className="flex flex-col justify-center w-full p-8 pt-0 lg:w-1/2 lg:px-12 xl:px-24 ">
-                    <form>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className="-mx-2 md:items-center md:flex">
                             <div className="flex-1 px-2">
                                 <label className="block mb-2 text-sm text-gray-800 ">Full Name</label>
-                                <input type="text" placeholder="your name" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                <input type="text" placeholder="your name" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-indigo-400 dark:focus:border-blue-400 focus:ring-indigo-400 focus:outline-none focus:ring focus:ring-opacity-40 duration-200" />
                             </div>
 
                             <div className="flex-1 px-2 mt-4 md:mt-0">
                                 <label className="block mb-2 text-sm text-gray-800 ">Email address</label>
-                                <input type="email" placeholder="yourname@example.com" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                <input type="email" placeholder="yourname@example.com" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-indigo-400 dark:focus:border-blue-400 focus:ring-indigo-400 focus:outline-none focus:ring focus:ring-opacity-40 duration-200" />
                             </div>
                         </div>
 
                         <div className="w-full mt-4">
                             <label className="block mb-2 text-sm text-gray-800 ">Message</label>
-                            <textarea className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
+                            <textarea className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 focus:border-indigo-400 focus:ring-indigo-400 focus:outline-none focus:ring focus:ring-opacity-40 duration-200" placeholder="Message"></textarea>
                         </div>
 
                         <div className="w-full py-3 pt-4 text-sm font-medium tracking-wide">
