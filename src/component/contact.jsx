@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function contact() {
     return (
         <>
@@ -47,24 +49,29 @@ function contact() {
                     <form>
                         <div class="-mx-2 md:items-center md:flex">
                             <div class="flex-1 px-2">
-                                <label class="block mb-2 text-sm text-gray-600 ">Full Name</label>
-                                <input type="text" placeholder="John Doe" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                <label class="block mb-2 text-sm text-gray-800 ">Full Name</label>
+                                <input type="text" placeholder="your name" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                             </div>
 
                             <div class="flex-1 px-2 mt-4 md:mt-0">
-                                <label class="block mb-2 text-sm text-gray-600 ">Email address</label>
-                                <input type="email" placeholder="johndoe@example.com" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                                <label class="block mb-2 text-sm text-gray-800 ">Email address</label>
+                                <input type="email" placeholder="yourname@example.com" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                             </div>
                         </div>
 
                         <div class="w-full mt-4">
-                            <label class="block mb-2 text-sm text-gray-600 ">Message</label>
+                            <label class="block mb-2 text-sm text-gray-800 ">Message</label>
                             <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
                         </div>
 
-                        <button class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
-                            get in touch
-                        </button>
+                        <div className="w-full py-3 pt-4 text-sm font-medium tracking-wide">
+                            <Link to="/about" className="relative inline-block px-4 py-4 font-medium group w-full text-center">
+                                <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+                                <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
+                                <span className="relative text-black group-hover:text-white">Get in touch</span>
+                            </Link>
+                        </div>
+
                     </form>
                 </div>
             </section>
