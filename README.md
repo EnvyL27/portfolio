@@ -2,7 +2,7 @@
 
 ![Portfolio Website](./public/logo2.PNG)
 
-Welcome to [Your Name]'s Portfolio Website repository! This website serves as a showcase of my skills, projects, and a brief introduction about myself.
+Welcome to my Portfolio Website repository! This website serves as a showcase of my skills, projects, and a brief introduction about myself.
 
 ## Features
 
