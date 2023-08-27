@@ -22,7 +22,7 @@ Welcome to my Portfolio Website repository! This website serves as a showcase of
 
 ### Prerequisites
 
-- Node.js (version 16.14.0)
+- Node.js (version 20.4.0)
 - npm (version 9.8.0)
 
 ### Installation
