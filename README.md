@@ -27,7 +27,7 @@ If you have any questions, suggestions, or collaboration ideas, feel free to rea
 
 - Email: farrel.ahmad.zaidan@gmail.com
 - LinkedIn: [Ahmad Farrel](https://www.linkedin.com/in/uglysquid/)
-- Portfolio: [Visit my portfolio](bit.ly/uglysquid)
+- Portfolio: [Visit my portfolio](https://bit.ly/uglysquid)
 
 ## Features
 
