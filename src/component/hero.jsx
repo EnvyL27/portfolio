@@ -42,7 +42,12 @@ function hero() {
                           
                             <h1 className="hidden max-sm:block text-5xl font-bold text-gray-900 py-4">Hello! I'm <span className="text-indigo-500">Ahmad Farrel</span></h1>
                         </div>
-                        <h1 className="hidden lg:block text-5xl font-bold text-gray-900 py-4">I'm Ahmad Farrel</h1>
+                        
+                        <h1 className="hidden lg:block text-5xl font-bold text-gray-900 py-4 lg:py-0">I'm Ahmad Farrel</h1>
+                        <div className="hidden lg:block icon under lg:pl-24 mt-12 lg:mt-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-56 md:w-80" fill="none" viewBox="0 0 346 24"><path stroke="#22A9F5" stroke-width="3" d="M1 18.61C111.19 1.714 209.119-2.292 294.787 6.59c2.103 1.37 1.447 2.211-1.968 2.525l-70.542 10.677c-1.016 1.455-.725 2.272.875 2.45 35.248-2.243 75.975-5.044 122.18-8.401" opacity="1" pathLength="1" stroke-dashoffset="0px" stroke-dasharray="1px 1px"></path>
+                            </svg>
+                        </div>
                         <div className="container pb-4 hidden lg:block">
                             <span className="text first-text">a </span>
                             <span className="text sec-text"></span>

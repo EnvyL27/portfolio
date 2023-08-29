@@ -40,4 +40,46 @@
     width: 100%;
   }
 
-  
+  /* .icon path{
+    fill: transparent;
+    stroke-width: 5;
+    stroke: #31e8ff;
+  }
+
+  .icon.under path{
+    stroke-dasharray: 5;
+    stroke-dashoffset: 5;
+  }
+
+  .icon.under:hover path{
+    animation: animate-under 5s linear forwards;
+  }
+
+  @keyframes animate-under{
+    0%{
+      stroke-dashoffset: 5;
+    }100%{
+      stroke-dashoffset: 0;
+    }
+  }
+   */
+.icon path {
+  fill: transparent;
+  stroke-width: 5;
+  stroke: #4F46E5;
+  animation: animate-under 5s linear forwards; /* Apply animation on load */
+}
+
+.icon.under path {
+  stroke-dasharray: 5;
+  stroke-dashoffset: 5;
+}
+
+@keyframes animate-under {
+  0% {
+    stroke-dashoffset: 5;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
