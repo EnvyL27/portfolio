@@ -1,4 +1,4 @@
-# Your Portfolio Website
+# Portfolio Website
 
 Welcome to the repository for my portfolio website! This website showcases my projects, skills, and experiences. Feel free to explore the site to learn more about me and my work.
 
@@ -42,6 +42,7 @@ If you have any questions, suggestions, or collaboration ideas, feel free to rea
 - HTML5
 - CSS (Tailwind CSS)
 - JavaScript (React)
+- Vite
 
 ## Prerequisites
 
