@@ -14,6 +14,10 @@ function content() {
                     <div className="flex justify-center items-center text-gray-800">
                             <h2 className="text-3xl font-bold sm:text-4xl">Creative Endeavors</h2>
                     </div>
+                    <div className="icon under flex justify-center items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-56 md:w-80" fill="none" viewBox="0 0 346 24"><path stroke="#22A9F5" stroke-width="3" d="M1 18.61C111.19 1.714 209.119-2.292 294.787 6.59c2.103 1.37 1.447 2.211-1.968 2.525l-70.542 10.677c-1.016 1.455-.725 2.272.875 2.45 35.248-2.243 75.975-5.044 122.18-8.401" opacity="1" pathLength="1" stroke-dashoffset="0px" stroke-dasharray="1px 1px"></path>
+                            </svg>
+                        </div>
                     <div className="flex justify-center items-center text-center">
                         <p className="mt-4 text-gray-500">
                             Welcome to my "Creative Endeavors". Within this portfolio, you'll discover a collection of meticulously crafted web projects that embody the essence of modern online experiences.
