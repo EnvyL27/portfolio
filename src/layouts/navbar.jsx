@@ -38,7 +38,7 @@ function navbar() {
             </div> */}
           </Link>
         </div>
-        <div className="navbar-start">
+        <div  className="navbar-start">
           <div onClick={handleDropdown} className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
@@ -57,7 +57,7 @@ function navbar() {
               </svg>
             </label>
             {isDropdown && (
-            <ul
+            <ul data-aos="fade-down"
               tabIndex={0}
               className="mr-8 enu menu-sm dropdown-content mt-1 z-[1] p-2 shadow bg-indigo-400 w-52 text-base-100 font-semibold"
             >

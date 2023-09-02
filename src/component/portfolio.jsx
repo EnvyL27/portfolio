@@ -18,10 +18,11 @@ function portfolio() {
               Welcome to my "Creative Endeavors". Within this portfolio, you'll discover a collection of meticulously crafted web projects that embody the essence of modern online experiences.
             </p>
           </div>
-          <div
+          <div data-aos="fade-up"
+            data-aos-duration="3000"
             className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3"
           >
-            <div className=" items-start gap-4 className">
+            <a href="https://solvevisual.netlify.app" className=" items-start gap-4 className">
               <img src={Sv} alt="" className='pb-8' />
 
               <div>
@@ -37,9 +38,9 @@ function portfolio() {
                   <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Tailwind</span>
                 </div>
               </div>
-            </div>
+            </a>
 
-            <div className=" items-start gap-4">
+            <a href="https://usfootwear.shop" className=" items-start gap-4">
               <img src={Us} alt="" className='pb-8' />
 
               <div>
@@ -52,11 +53,11 @@ function portfolio() {
                 </p> */}
               </div>
               <div className='flex flex-rows gap-4 py-4'>
-                  <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Laravel</span>
-                  <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Bootstrap</span>
-                  <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">MYSQL</span>
-                </div>
-            </div>
+                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Laravel</span>
+                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Bootstrap</span>
+                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">MYSQL</span>
+              </div>
+            </a>
 
             <div className=" items-start gap-4">
               <img src={Tx} alt="" className='pb-8' />
@@ -71,13 +72,14 @@ function portfolio() {
                 </p> */}
               </div>
               <div className='flex flex-rows gap-4 py-4'>
-                  <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Angular</span>
-                  <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Tailwind</span>
-                  <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">ExpressJS</span>
-                  <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">MYSQL</span>
-                </div>
+                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Angular</span>
+                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">Tailwind</span>
+                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">ExpressJS</span>
+                <span className="bg-indigo-900 text-indigo-200 text-xs font-medium mr-2 px-2.5 py-0.5 ">MYSQL</span>
+              </div>
             </div>
-            <div className=" items-start gap-4"></div>
+          </div>
+          <div className=" items-start gap-4"></div>
             <div className="flex justify-center items-center gap-4">
               <Link to="/project" className="relative inline-block px-4 py-2 font-medium group">
                 <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
@@ -85,71 +87,10 @@ function portfolio() {
                 <span className="relative text-black group-hover:text-white">See More</span>
               </Link>
             </div>
-            {/* <div className=" items-start gap-4">
-      <img src={Ms} alt=""  className='pb-8' />
-
-        <div>
-          <h2 className="text-lg font-bold text-gray-800">Maissy.</h2>
-
-          <p className="mt-1 text-sm text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-            cumque tempore est ab possimus quisquam reiciendis tempora animi!
-            Quaerat, saepe?
-          </p>
-        </div>
-      </div>
-
-      <div className=" items-start gap-4">
-      <img src={Ab} alt=""  className='pb-8' />
-
-        <div>
-          <h2 className="text-lg font-bold text-gray-800">Absensi.</h2>
-
-          <p className="mt-1 text-sm text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-            cumque tempore est ab possimus quisquam reiciendis tempora animi!
-            Quaerat, saepe?
-          </p>
-        </div>
-      </div> */}
-
-            {/* <div className="flex items-start gap-4">
-        <span className="shrink-0 rounded-lg bg-gray-800 p-4">
-          <svg
-            className="h-5 w-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-            ></path>
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-            ></path>
-          </svg>
-        </span>
-
-        <div>
-          <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
-
-          <p className="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-            cumque tempore est ab possimus quisquam reiciendis tempora animi!
-            Quaerat, saepe?
-          </p>
-        </div>
-      </div> */}
-          </div>
         </div>
       </section>
 
-      
+
     </>
   );
 }
