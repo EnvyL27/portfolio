@@ -53,7 +53,7 @@ function contact() {
         <>
             <section className="min-h-screen bg-gray-100 lg:flex z-10 max-sm:pt-12">
                 <div className="flex flex-col justify-center w-full p-8 lg:bg-gray-100 lg:px-12 xl:px-32 lg:w-1/2">
-                    <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl">hire me.</h1>
+                    <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl">get in touch with me.</h1>
 
                     <p className="mt-4 text-gray-500">
                         Ask everything and I would love
@@ -132,7 +132,7 @@ function contact() {
                             <button type="submit" value="Send" className="relative inline-block px-4 py-4 font-medium group w-full text-center">
                                 <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                                 <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
-                                <span className="relative text-black group-hover:text-white">Get in touch</span>
+                                <span className="relative text-black group-hover:text-white capitalize">send</span>
                             </button>
                         </div>
 
