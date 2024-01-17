@@ -61,7 +61,7 @@ function contact() {
                     </p>
 
                     <div className="mt-6 md:mt-8">
-                        <h3 className="font-medium text-gray-600">Follow me</h3>
+                        <h3 className="font-medium text-gray-600">Follow me on:</h3>
 
                         <div className="flex mt-4 -mx-1.5 ">
                             <a className="pt-1 px-1 mx-1.5 text-gray-400 transition-colors duration-300 transform hover:text-indigo-500" href="https://twitter.com/uglysquid27/">

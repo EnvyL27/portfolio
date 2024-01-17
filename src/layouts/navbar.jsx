@@ -31,11 +31,11 @@ function navbar() {
         <div className="lg:navbar-start max-lg:hidden">
           <Link to="/" className="text-center column-1">
             <div className="bg-blend-difference logo w-full font-bold text-md text-gray-900">
-              UGLYSQUID
+              AHMAD FARREL
             </div>
-            {/* <div className="text-xs font-semibold text-gray-800">
-              FRONTEND DEVELOPER
-            </div> */}
+            <div className="text-xs font-semibold text-gray-800">
+              WEB DEVELOPER
+            </div>
           </Link>
         </div>
         <div  className="navbar-start">
