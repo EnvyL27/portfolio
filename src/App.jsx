@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { motion, useScroll,useSpring } from "framer-motion"
+import { motion, useScroll, useSpring } from "framer-motion"
 import Nav from "./layouts/navbar";
 import Side from "./layouts/sidebar";
 import RightSide from "./layouts/rightSide";
@@ -19,9 +19,10 @@ function App() {
   })
   return (
     <>
-    <motion.div
+      <motion.div
         className="fixed bg-indigo-600 z-50"
-        style={{ scaleX, 
+        style={{
+          scaleX,
           top: 0,
           bottom: 0,
           right: 0,
@@ -30,20 +31,23 @@ function App() {
           transformOrigin: "0%"
         }}
       />
-    <BrowserRouter>
-          <Nav />
-          <Side />
-          <RightSide />
-          <div>
-            <Routes>
-              <Route path="/" element={<Hero />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/project" element={<Projects />} />
-              <Route path="/contact" element={<Contact />} />
-            </Routes>
-          </div>
-          <Footer/>
-        </BrowserRouter>
+      <BrowserRouter>
+        <Nav />
+        <div className='hidden lg:block'>
+        <Side />
+        <RightSide />
+        </div>
+        
+        <div className='lg:px-36'>
+          <Routes>
+            <Route path="/" element={<Hero />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/project" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

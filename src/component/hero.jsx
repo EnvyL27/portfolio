@@ -4,6 +4,7 @@ import "../css/style.css";
 import "../css/animation.css";
 import { useEffect } from "react"
 import Content from "./content";
+import Contact from "./contact";
 import Tools from "./tools";
 import Port from "./portfolio";
 import About from "./about";
@@ -71,6 +72,7 @@ function hero() {
 
             <Tools />
             <Port />
+            <Contact />
         </>
     );
 }

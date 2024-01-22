@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 function footer() {
   return (
     <>
-      <footer className="footer footer-center p-10 bg-gray-300 text-gray-900 rounded">
-        <div className="grid grid-flow-col gap-4">
+      <footer className="footer footer-center p-10 bg-gray-100 text-gray-900 rounded">
+        {/* <div className="grid grid-flow-col gap-4">
           <Link to='/' className="text-link ">Home</Link>
           <Link to='/about' className="text-link">About</Link>
           <Link to='project' className="text-link">Project</Link>
           <Link to='/contact' className="text-link">Contact</Link>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <div className="grid grid-flow-col gap-4">
             <a href="https://twitter.com/winter2127/">
               <svg
@@ -81,7 +81,7 @@ function footer() {
               </svg>
             </a>
           </div>
-        </div>
+        </div> */}
         <div>
           <p>Copyright © 2023 - All right reserved by Ahmad Farrel</p>
         </div>
