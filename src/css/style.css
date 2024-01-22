@@ -51,3 +51,26 @@
     background-color: #333; /* Change this to your desired background color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional box shadow */
 }
+
+/* styles.css or your styles file */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.left-sidebar {
+  margin-right: 10px;
+}
+
+.right-sidebar {
+  margin-left: 10px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+}

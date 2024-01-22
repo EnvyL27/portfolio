@@ -6,6 +6,7 @@ import { useEffect } from "react"
 import Content from "./content";
 import Tools from "./tools";
 import Port from "./portfolio";
+import About from "./about";
 import { Link } from "react-router-dom";
 // import Svg from './../../public/blob-scene-haikei.svg'
 
@@ -65,6 +66,7 @@ function hero() {
                     </div>
                 </div>
             </div>
+            <About/>
             <Content />
 
             <Tools />

@@ -1,6 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { motion, useScroll,useSpring } from "framer-motion"
 import Nav from "./layouts/navbar";
+import Side from "./layouts/sidebar";
+import RightSide from "./layouts/rightSide";
 import "./App.css";
 import Hero from "./component/hero";
 import Footer from "./layouts/footer";
@@ -30,6 +32,8 @@ function App() {
       />
     <BrowserRouter>
           <Nav />
+          <Side />
+          <RightSide />
           <div>
             <Routes>
               <Route path="/" element={<Hero />} />

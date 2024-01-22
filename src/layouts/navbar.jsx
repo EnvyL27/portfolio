@@ -59,20 +59,20 @@ function navbar() {
             {isDropdown && (
             <ul data-aos="fade-down"
               tabIndex={0}
-              className="mr-8 enu menu-sm dropdown-content mt-1 z-[1] p-2 shadow bg-indigo-400 w-52 text-base-100 font-semibold"
+              className="mr-8 menu-sm dropdown-content mt-1 z-[1] p-2 shadow bg-indigo-400 w-52 text-base-100 font-semibold"
             >
               <li>
                 <Link to="/"
                   className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6 bg-blend-difference"
                 >
-                  HOME
+                  Home
                 </Link>
               </li>
               <li>
                 <Link to="about"
                   className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
                 >
-                  ABOUT
+                  About
                 </Link>
               </li>
               <li>
@@ -80,7 +80,7 @@ function navbar() {
                   to="project"
                   className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
                 >
-                  PROJECT
+                  Project
                 </Link>
               </li>
               <li>
@@ -88,7 +88,7 @@ function navbar() {
                   to="contact"
                   className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
                 >
-                  CONTACT
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -105,27 +105,27 @@ function navbar() {
           <Link to="/"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6 bg-blend-difference"
           >
-            HOME
+            Home
           </Link>
 
           <Link to="about"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
           >
-            ABOUT
+            About
           </Link>
 
           <Link
             to="project"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
           >
-            PROJECT
+            Project
           </Link>
 
           <Link
             to="contact"
             className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
           >
-            CONTACT
+            Contact
           </Link>
         </div>
       </div>
