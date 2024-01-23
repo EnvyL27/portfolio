@@ -32,7 +32,7 @@ function hero() {
     })
     return (
         <>
-            <div className="lg:px-36 max-lg:px-44 hero z-10 min-h-screen bg-gray-100">
+            <div id="home" className="lg:px-36 hero z-10 min-h-screen bg-gray-100">
                 <div className="hero-content flex-col lg:flex-row-reverse ">
                     {/* <div className="w-2/5 pl-20 hidden lg:block">
                         <img className="grayscale hover:grayscale-0 duration-300" src={Me} alt="" />
@@ -40,15 +40,15 @@ function hero() {
                     <div className="w-5/5">
                         <div className="flex">
                             <h1 className="hidden lg:block text-5xl font-bold text-gray-900 py-4 pr-6">Hi!</h1>
-                            <img className="hidden lg:block" src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = "80px" />
-                        </div> 
+                            <img className="hidden lg:block" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="80px" />
+                        </div>
                         <div className="hidden max-sm:block py-4">
                             <h1 className=" text-5xl font-bold text-gray-900 ">Hello!</h1>
                             <h1 className=" text-5xl font-bold text-gray-900 ">I'm <span className="text-indigo-500">Ahmad Farrel</span></h1>
                         </div>
-                        
+
                         <h1 className="hidden lg:block text-5xl font-bold text-gray-900 py-4 lg:py-0">I'm Ahmad Farrel</h1>
-                        
+
                         <div className="container pb-4 hidden lg:block">
                             <span className="text first-text">a </span>
                             <span className="text sec-text"></span>
@@ -67,12 +67,19 @@ function hero() {
                     </div>
                 </div>
             </div>
-            <About/>
-            <Content />
-
-            <Tools />
-            <Port />
-            <Contact />
+            <div id="about">
+                <About />
+            </div>
+            <div id="expert">
+                <Content />
+                <Tools />
+            </div>
+            <div id="project">
+                <Port />
+            </div>
+            <div id="contact">
+                <Contact />
+            </div>
         </>
     );
 }

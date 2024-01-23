@@ -5,6 +5,7 @@ import './../css/animation.css'
 import './../css/style.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link as ScrollLink } from "react-scroll";
 React
 
 function navbar() {
@@ -29,7 +30,7 @@ function navbar() {
     window.addEventListener("scroll", function () {
       const navbar = document.querySelector(".navbar");
       if (window.scrollY > 0) {
-        navbar.classList.add("bg-gray-100");
+        navbar.classList.add("bg-gray-100")
         navbar.classList.remove("bg-transparent");
       } else {
         navbar.classList.remove("bg-gray-700");
@@ -74,34 +75,29 @@ function navbar() {
                 className="mr-8 menu-sm dropdown-content mt-1 z-[1] p-2 shadow bg-indigo-400 w-52 text-base-100 font-semibold"
               >
                 <li>
-                  <Link to="/"
-                    className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6 bg-blend-difference"
-                  >
+                  <ScrollLink to="home" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" style={{ cursor: "pointer" }} >
                     Home
-                  </Link>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <Link to="about"
-                    className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
-                  >
+                  <ScrollLink to="about" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" style={{ cursor: "pointer" }} >
                     About
-                  </Link>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <Link
-                    to="project"
-                    className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
-                  >
+                  <ScrollLink to="expert" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" style={{ cursor: "pointer" }} >
+                    Expertise
+                  </ScrollLink>
+                </li>
+                <li>
+                  <ScrollLink to="project" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" style={{ cursor: "pointer" }} >
                     Project
-                  </Link>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <Link
-                    to="contact"
-                    className="text-link font-medium text-gray-900 mx-1.5 sm:mx-6"
-                  >
+                  <ScrollLink to="contact" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" style={{ cursor: "pointer" }} >
                     Contact
-                  </Link>
+                  </ScrollLink>
                 </li>
               </ul>
             )}
@@ -113,22 +109,26 @@ function navbar() {
           </Link>
         </div>
 
-        <div className="navbar-end container lg:flex text-gray-900 capitalize dark:text-gray-700">
-          <Link to="/" className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="200">
+        <div className="hidden md:block navbar-end container lg:flex text-gray-900 capitalize dark:text-gray-700">
+          <ScrollLink to="home" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="200" style={{ cursor: "pointer" }} >
             Home
-          </Link>
+          </ScrollLink>
 
-          <Link to="about" className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="300">
+          <ScrollLink to="about" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="300" style={{ cursor: "pointer" }} >
             About
-          </Link>
+          </ScrollLink>
 
-          <Link to="project" className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="400">
+          <ScrollLink to="expert" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="300" style={{ cursor: "pointer" }} >
+            Expertise
+          </ScrollLink>
+
+          <ScrollLink to="project" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="400" style={{ cursor: "pointer" }} >
             Project
-          </Link>
+          </ScrollLink>
 
-          <Link to="contact" className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="500">
+          <ScrollLink to="contact" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="500" style={{ cursor: "pointer" }} >
             Contact
-          </Link>
+          </ScrollLink>
         </div>
       </div>
     </>
