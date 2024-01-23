@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 function content() {
     return (
         <>
-            <section className="bg-gray-100 text-gray-800 max-sm:pt-12">
+            <section className="lg:px-36 bg-gray-100 text-gray-800 max-sm:pt-12">
                 <div className=" px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
                     <div className="flex justify-center items-center text-gray-800">
                             <h2 className="text-3xl font-bold sm:text-4xl">Creative Endeavors</h2>

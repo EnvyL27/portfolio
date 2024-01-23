@@ -32,7 +32,7 @@ function hero() {
     })
     return (
         <>
-            <div className="hero z-10 min-h-screen bg-gray-100">
+            <div className="lg:px-36 max-lg:px-44 hero z-10 min-h-screen bg-gray-100">
                 <div className="hero-content flex-col lg:flex-row-reverse ">
                     {/* <div className="w-2/5 pl-20 hidden lg:block">
                         <img className="grayscale hover:grayscale-0 duration-300" src={Me} alt="" />
