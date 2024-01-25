@@ -67,10 +67,10 @@ function hero() {
                     </div>
                 </div>
             </div>
-            <div id="about">
+            <div className="h-screen" id="about">
                 <About />
             </div>
-            <div id="expert">
+            <div className="h-screen" id="expert">
                 <Content />
                 <Tools />
             </div>
