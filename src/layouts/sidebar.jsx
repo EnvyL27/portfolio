@@ -17,7 +17,7 @@ const Sidebar = () => {
                         </div>
                     </Link>
 
-                    <Link to="https://instagram.com/__srjdn?igshid=OGQ5ZDc2ODk2ZA==">
+                    <Link to="https://instagram.com/_frlog">
                         <div className='transform hover:-translate-y-2 duration-200'>
                             <svg data-aos="fade-right" data-aos-delay="100" className='my-8 text-gray-800 hover:text-indigo-500 fill-current duration-200' width="24px" height="24px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 

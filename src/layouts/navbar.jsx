@@ -111,23 +111,23 @@ function navbar() {
 
         <div className="hidden md:block navbar-end container lg:flex text-gray-900 capitalize dark:text-gray-700">
           <ScrollLink to="home" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="200" style={{ cursor: "pointer" }} >
-            Home
+            01.Home
           </ScrollLink>
 
           <ScrollLink to="about" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="300" style={{ cursor: "pointer" }} >
-            About
+            02.About
           </ScrollLink>
 
           <ScrollLink to="expert" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="300" style={{ cursor: "pointer" }} >
-            Expertise
+            03.Expertise
           </ScrollLink>
 
           <ScrollLink to="project" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="400" style={{ cursor: "pointer" }} >
-            Project
+            04.Project
           </ScrollLink>
 
           <ScrollLink to="contact" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" data-aos="fade-down" data-aos-delay="500" style={{ cursor: "pointer" }} >
-            Contact
+            05.Contact
           </ScrollLink>
         </div>
       </div>
