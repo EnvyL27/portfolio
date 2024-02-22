@@ -1,7 +1,8 @@
 // import Bg from "../../public/blurry-gradient-haikei.png";
-import Bg from "../../public/bg.jpg";
-import Nobg from "../../public/nobg.png";
+import Bg from "../../public/MyFoto.jpg";
+import Nobg from "../../public/MyFotoNoBg.png";
 import { Link } from "react-router-dom";
+// import { Cv } from "./assets/MyResume.pdf"÷
 import { Document, Page } from 'react-pdf';
 import './../css/card.css'
 
