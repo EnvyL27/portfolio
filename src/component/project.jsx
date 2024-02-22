@@ -109,7 +109,7 @@ function content() {
                         </ul>
                     </div>
                     <div
-                        className="hidden max-sm:block mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3"
+                        className="hidden max-sm:block mt-8 grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3"
                     >
                         <a href='https://solvevisual.netlify.app' className=" items-start gap-4 className">
                             <img src={Sv} alt="" className='pb-8' />

@@ -53,7 +53,7 @@ function navbar() {
         </div>
         <div className="navbar-start">
           <div onClick={handleDropdown} className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label data-aos="fade-right" data-aos-delay="100" tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -76,27 +76,27 @@ function navbar() {
               >
                 <li>
                   <ScrollLink to="home" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" style={{ cursor: "pointer" }} >
-                    Home
+                    01. Home
                   </ScrollLink>
                 </li>
                 <li>
                   <ScrollLink to="about" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" style={{ cursor: "pointer" }} >
-                    About
+                    02. About
                   </ScrollLink>
                 </li>
                 <li>
                   <ScrollLink to="expert" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" style={{ cursor: "pointer" }} >
-                    Expertise
+                    03. Expertise
                   </ScrollLink>
                 </li>
                 <li>
                   <ScrollLink to="project" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" style={{ cursor: "pointer" }} >
-                    Project
+                    04. Project
                   </ScrollLink>
                 </li>
                 <li>
                   <ScrollLink to="contact" smooth={true} duration={500} className="text-link font-medium mx-1.5 sm:mx-6" style={{ cursor: "pointer" }} >
-                    Contact
+                    05. Contact
                   </ScrollLink>
                 </li>
               </ul>
@@ -105,7 +105,10 @@ function navbar() {
         </div>
         <div className="md:hidden max-sm:navbar-end overflow-hidden">
           <Link to='/' className="btn btn-ghost column-1">
-            <div className="bg-blend-difference logo w-full font-bold text-md text-gray-900 hover:text-gray-600">AHMAD FARREL</div>
+            <div className="bg-blend-difference logo w-full font-bold text-md text-gray-900 hover:text-gray-600" data-aos="fade-right" data-aos-delay="200">AHMAD FARREL</div>
+            {/* <div className="bg-blend-difference logo w-full font-bold text-md text-gray-900 hover:text-gray-600" data-aos="fade-right" data-aos-delay="200">
+              WEB DEVELOPER
+            </div> */}
           </Link>
         </div>
 

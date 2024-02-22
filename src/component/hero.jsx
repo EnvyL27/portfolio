@@ -34,22 +34,18 @@ function hero() {
         <>
             <div id="home" className="lg:px-36 hero z-10 min-h-screen bg-gray-100">
                 <div className="hero-content flex-col lg:flex-row-reverse ">
-                    {/* <div className="w-2/5 pl-20 hidden lg:block">
-                        <img className="grayscale hover:grayscale-0 duration-300" src={Me} alt="" />
-                    </div> */}
                     <div className="w-5/5">
                         <div className="flex">
-                            <h1 className="hidden lg:block text-5xl font-bold text-gray-900 py-4 pr-6">Hi!</h1>
-                            {/* <img className="hidden lg:block" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="80px" /> */}
+                            <h1 data-aos="fade-right" data-aos-delay="200" className="hidden lg:block text-5xl font-bold text-gray-900 py-4 pr-6">Hi !</h1>
                         </div>
                         <div className="hidden max-sm:block py-4">
-                            <h1 className=" text-5xl font-bold text-gray-900 ">Hello!</h1>
-                            <h1 className=" text-5xl font-bold text-gray-900 ">I'm <span className="text-indigo-500">Ahmad Farrel</span></h1>
+                            <h1 data-aos="fade-right" data-aos-delay="300" className=" text-5xl font-bold text-gray-900 ">Hello!</h1>
+                            <h1 data-aos="fade-right" data-aos-delay="400" className=" text-5xl font-bold text-gray-900 ">I'm <span className="text-indigo-500">Ahmad Farrel</span></h1>
                         </div>
 
-                        <h1 className="hidden lg:block text-5xl font-bold text-gray-900 py-4 lg:py-0">Welcome to Farrel's Log</h1>
+                        <h1 data-aos="fade-right" data-aos-delay="300" className="hidden lg:block text-5xl font-bold text-gray-900 py-4 lg:py-0">Welcome to Farrel's Log</h1>
 
-                        <div className="container pb-4 hidden lg:block">
+                        <div data-aos="fade-right" data-aos-delay="400" className="container pb-4 hidden lg:block">
                             <span className="text first-text">a </span>
                             <span className="text sec-text"></span>
                         </div>
@@ -59,7 +55,7 @@ function hero() {
                             Currently a student at <a className="text-indigo-700 hover:text-indigo-400 duration-200" href="https://www.polinema.ac.id">State Polytechnic of Malang</a> and doing
                             internship at <a href="https://www.aio.co.id" className="text-indigo-700 hover:text-indigo-400 duration-200">PT. Amerta Indah Otsuka!</a> 
                         </p> */}
-                        <ScrollLink to="about" smooth={true} className="relative inline-block px-4 py-2 font-medium group">
+                        <ScrollLink data-aos="fade-right" data-aos-delay="500" to="about" smooth={true} className="relative inline-block px-4 py-2 font-medium group">
                             <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                             <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
                             <span className="cursor-pointer relative text-black group-hover:text-white">More about me</span>
