@@ -67,8 +67,8 @@ function hero() {
                 <About />
             </div>
             <div className="h-screen" id="expert">
-                <Content />
-                <Tools />
+                {/* <Content />
+                <Tools /> */}
             </div>
             <div id="project">
                 {/* <Port /> */}
