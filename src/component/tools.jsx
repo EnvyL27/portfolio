@@ -10,18 +10,18 @@ import Fm from "./../../public/figma.png";
 function tools() {
   return (
     <>
-    <div className='bg-gray-100 py-6 pb-28'>
+    <div className='lg:px-36 bg-gray-100 pb-28'>
       <div className="title">
-        <div className="text-3xl text-gray-800 font-extrabold text-center font-montserrat">
-          My Expertise
+        <div className="text-2xl text-gray-800 font-extrabold text-center font-montserrat">
+          Tools
         </div>
-        <div className="flex items-center justify-center mt-1">
+        {/* <div className="flex items-center justify-center mt-1">
           <hr className="border-2 border-t-2 border-gray-800 w-52" />
-        </div>
+        </div> */}
       </div>
       <div  className="flex items-start gap-2 mt-10 lg:px-48 justify-evenly max-md:flex-wrap">
         <div className='w-full text-center items-center' >
-          <p className='text-xl font-bold text-center text-gray-800'>Web Developer</p>
+          {/* <p className='text-xl font-bold text-center text-gray-800'>Web Developer</p> */}
           <div className="grid grid-cols-3 gap-3 mt-14 place-items-center">
               <img src={Html} alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[50%]' />
               <img src={Css} alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[50%]' />
@@ -31,7 +31,7 @@ function tools() {
         </div>
         <div className="divider  divider-horizontal"></div>
         <div className='w-full text-center items-center'  >
-          <p className='text-xl font-bold text-gray-800'>UI / UX Design</p>
+          {/* <p className='text-xl font-bold text-gray-800'>UI / UX Design</p> */}
           <div className="grid grid-cols-3 gap-3 mt-14 place-items-center">
             <img src={Ps} alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[50%]' />
             <img src={Ai} alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[50%]' />
@@ -41,7 +41,7 @@ function tools() {
         <div className="divider divider-horizontal  max-md:hidden"></div>
         <div className="divider md:hidden"></div>
         <div className='w-full text-center items-center' >
-          <p className='text-xl font-bold text-gray-800 '>Video Editing</p>
+          {/* <p className='text-xl font-bold text-gray-800 '>Video Editing</p> */}
           <div className="grid grid-cols-3 gap-3 mt-14 place-items-center">
             <img src={Prm} alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[50%]' />
             <img src={Ae} alt="" className='duration-300 ease-in-out cursor-pointer filter grayscale hover:scale-102 hover:filter-none w-[50%]' />

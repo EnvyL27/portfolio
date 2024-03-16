@@ -51,16 +51,16 @@ function contact() {
 
     return (
         <>
-            <section className="min-h-screen bg-gray-100 lg:flex z-10 max-sm:pt-12">
+            <section className="lg:px-36 min-h-screen bg-gray-100 lg:flex z-10 max-sm:pt-12">
                 <div className="flex flex-col justify-center w-full p-8 lg:bg-gray-100 lg:px-12 xl:px-32 lg:w-1/2">
                     <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl">get in touch with me.</h1>
 
                     <p className="mt-4 text-gray-500">
-                        Ask everything and I would love
+                        Send anything and I would love
                         to hear from you
                     </p>
 
-                    <div className="mt-6 md:mt-8">
+                    {/* <div className="mt-6 md:mt-8">
                         <h3 className="font-medium text-gray-600">Follow me on:</h3>
 
                         <div className="flex mt-4 -mx-1.5 ">
@@ -106,7 +106,7 @@ function contact() {
                                 </svg>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="flex flex-col justify-center w-full p-8 pt-0 lg:w-1/2 lg:px-12 xl:px-24 ">

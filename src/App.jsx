@@ -38,7 +38,7 @@ function App() {
         <RightSide />
         </div>
         
-        <div className='lg:px-36'>
+        <div className='bg-gray-100'>
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/about" element={<About />} />
