@@ -12,7 +12,7 @@ import { Link as ScrollLink } from "react-scroll";
 // import Svg from './../../public/blob-scene-haikei.svg'
 
 function hero() {
-    useEffect(() => {
+    useEffect(() => { 
         const text = document.querySelector(".sec-text");
 
         const textLoad = () => {
