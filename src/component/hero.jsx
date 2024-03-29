@@ -17,7 +17,7 @@ function hero() {
 
         const textLoad = () => {
             setTimeout(() => {
-                text.textContent = "Fullstack Developer";
+                text.textContent = "Fullstack Developer"; 
             }, 0);
             setTimeout(() => {
                 text.textContent = "UI/UX Designer";
