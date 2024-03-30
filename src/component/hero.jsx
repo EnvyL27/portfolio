@@ -6,7 +6,7 @@ import { useEffect } from "react"
 import Content from "./content";
 import Contact from "./contact"; 
 import Tools from "./tools"; 
-import Port from "./portfolio";
+import Port from "./portfolio"; 
 import About from "./about";
 import { Link as ScrollLink } from "react-scroll";
 // import Svg from './../../public/blob-scene-haikei.svg'
