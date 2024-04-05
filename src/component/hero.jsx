@@ -66,12 +66,12 @@ function hero() {
             <div className="h-screen" id="about">
                 <About />
             </div>
-            <div className="h-screen" id="expert">
-                {/* <Content />
-                <Tools /> */}
-            </div>
+            {/* <div className="h-screen" id="expert">
+                <Content />
+                <Tools />
+            </div> */}
             <div id="project">
-                {/* <Port /> */}
+                <Port />
             </div>
             <div id="contact">
                 <Contact />
