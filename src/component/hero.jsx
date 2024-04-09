@@ -41,7 +41,7 @@ function hero() {
                         <div className="hidden max-sm:block py-4">
                             <h1 data-aos="fade-right" data-aos-delay="300" className=" text-5xl font-bold text-gray-900 ">Hello!</h1>
                             <h1 data-aos="fade-right" data-aos-delay="400" className=" text-5xl font-bold text-gray-900 ">I'm <span className="text-indigo-500">Ahmad Farrel</span></h1>
-                        </div> 
+                        </div>  
 
                         <h1 data-aos="fade-right" data-aos-delay="300" className="hidden lg:block text-5xl font-bold text-gray-900 py-4 lg:py-0">Welcome to Farrel's Log</h1>
 
