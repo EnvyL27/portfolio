@@ -30,7 +30,7 @@ function hero() {
         textLoad();
         setInterval(textLoad, 12000);
     })
-    return (
+    return ( 
         <>
             <div id="home" className="lg:px-36 hero z-10 min-h-screen bg-gray-100">
                 <div className="hero-content flex-col lg:flex-row-reverse ">
