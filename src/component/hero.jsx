@@ -30,18 +30,18 @@ function hero() {
         textLoad();
         setInterval(textLoad, 12000);
     })
-    return (
-        <>
+    return (  
+        <> 
             <div id="home" className="lg:px-36 hero z-10 min-h-screen bg-gray-100">
                 <div className="hero-content flex-col lg:flex-row-reverse ">
-                    <div className="w-5/5">
+                    <div className="w-5/5"> 
                         <div className="flex">
                             <h1 data-aos="fade-right" data-aos-delay="200" className="hidden lg:block text-5xl font-bold text-gray-900 py-4 pr-6">Hi !</h1>
                         </div>
                         <div className="hidden max-sm:block py-4">
                             <h1 data-aos="fade-right" data-aos-delay="300" className=" text-5xl font-bold text-gray-900 ">Hello!</h1>
                             <h1 data-aos="fade-right" data-aos-delay="400" className=" text-5xl font-bold text-gray-900 ">I'm <span className="text-indigo-500">Ahmad Farrel</span></h1>
-                        </div>
+                        </div>  
 
                         <h1 data-aos="fade-right" data-aos-delay="300" className="hidden lg:block text-5xl font-bold text-gray-900 py-4 lg:py-0">Welcome to Farrel's Log</h1>
 
@@ -66,10 +66,10 @@ function hero() {
             <div className="h-screen" id="about">
                 <About />
             </div>
-            <div className="h-screen" id="expert">
-                {/* <Content />
-                <Tools /> */}
-            </div>
+            {/* <div className="h-screen" id="expert">
+                <Content />
+                <Tools />
+            </div> */}
             <div id="project">
                 {/* <Port /> */}
             </div>

@@ -42,7 +42,6 @@ function content() {
                                             </p>
                                             <p>
                                                 Angular's dynamic framework propels our web presence, delivering seamless navigation and interactive elements that engage visitors.
-                                                Combined with Tailwind's sleek utility-first approach to design, our website exudes elegance and functionality, ensuring a responsive interface
                                                 across all devices. Whether clients explore our portfolio on a desktop, tablet, or smartphone, they're met with a cohesive and visually appealing
                                                 interface that reflects the caliber of our photographic prowess.
                                             </p>
@@ -54,6 +53,7 @@ function content() {
                                         </div>
                                     </div>
                                 </div>
+                                                Combined with Tailwind's sleek utility-first approach to design, our website exudes elegance and functionality, ensuring a responsive interface
                             </li>
 
                             <li className="cardds_item">
