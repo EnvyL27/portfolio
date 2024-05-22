@@ -9,9 +9,17 @@ import Footer from "./layouts/footer";
 import About from "./component/about";
 import Projects from "./component/project";
 import Contact from "./component/contact";
+import CustomCursor from './component/customCursor';
 
 function App() {
   const { scrollYProgress } = useScroll();
+  const handleMouseEnter = () => {
+    document.documentElement.style.setProperty('--cursor-scale', 'scale(1.5)');
+  };
+
+  const handleMouseLeave = () => {
+    document.documentElement.style.setProperty('--cursor-scale', 'scale(1)');
+  };
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
@@ -19,6 +27,14 @@ function App() {
   })
   return (
     <>
+     <CustomCursor />
+     <div 
+      className="hoverable-element"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+     >
+
+     
       <motion.div
         className="fixed bg-indigo-600 z-50"
         style={{
@@ -48,6 +64,7 @@ function App() {
         </div>
         <Footer />
       </BrowserRouter>
+      </div>
     </>
   );
 }

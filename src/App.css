@@ -7,3 +7,28 @@
     background: var(--red);
     transform-origin: 0%;
   }
+
+  /* src/App.css */
+.hoverable-element {
+  transition: transform 0.3s ease;
+}
+
+:root {
+  --cursor-scale: scale(1);
+}
+
+.custom-cursor {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%) var(--cursor-scale);
+  pointer-events: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hoverable-element:hover {
+  background-color: blue;
+  cursor: none;
+}
