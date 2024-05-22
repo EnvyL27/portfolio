@@ -78,3 +78,14 @@
   padding: 20px;
   background-color: #f4f4f4;
 }
+
+/* src/css/style.css */
+.hoverable-element {
+  transition: all 0.3s ease;
+}
+
+.hoverable-element:hover .blend-text {
+  mix-blend-mode: difference;
+  color: white; /* This color should ensure the difference blend mode creates the desired effect */
+}
+

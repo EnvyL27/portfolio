@@ -3,27 +3,22 @@ import React, { useEffect, useState } from 'react';
 
 const CustomCursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
-  const [hovering, setHovering] = useState(false);
 
   useEffect(() => {
-    const addCursorEffect = (e) => {
+    const updatePosition = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
 
-    window.addEventListener('mousemove', addCursorEffect);
+    window.addEventListener('mousemove', updatePosition);
 
     return () => {
-      window.removeEventListener('mousemove', addCursorEffect);
+      window.removeEventListener('mousemove', updatePosition);
     };
   }, []);
 
-  const cursorClasses = `fixed w-10 h-10 rounded-full pointer-events-none transform -translate-x-1/2 -translate-y-1/2 z-50 ${
-    hovering ? 'bg-blue-500 scale-150' : 'bg-red-500'
-  }`;
-
   return (
     <div
-      className={cursorClasses}
+      className="custom-cursor fixed w-10 h-10 rounded-full pointer-events-none transform -translate-x-1/2 -translate-y-1/2 z-50 bg-gray-900"
       style={{ left: `${position.x}px`, top: `${position.y}px` }}
     ></div>
   );
