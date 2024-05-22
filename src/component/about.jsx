@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 // import { Document, Page } from 'react-pdf';
 import './../css/card.css'
 
-
 function content() {
     return (
         <>
