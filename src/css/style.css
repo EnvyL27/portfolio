@@ -80,12 +80,38 @@
 }
 
 /* src/css/style.css */
+/* src/css/style.css */
 .hoverable-element {
-  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  z-index: 10; /* Ensure the text container is above the cursor */
+}
+
+.blend-text {
+  position: relative;
+  z-index: 20; /* Ensure the text itself is above everything else */
+}
+
+.custom-cursor {
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+  z-index: 5; /* Ensure the cursor is below the text */
 }
 
 .hoverable-element:hover .blend-text {
   mix-blend-mode: difference;
-  color: white; /* This color should ensure the difference blend mode creates the desired effect */
+  color: white; /* Change this to the color you want to blend with */
 }
+
+.hovering .custom-cursor {
+  width: 48px; /* Expanding by 20% */
+  height: 48px;
+}
+
 

@@ -9,7 +9,7 @@
   }
 
 /* src/App.css */
-.hoverable-element {
+/* .hoverable-element {
   transition: background-color 0.3s ease;
 }
 
@@ -27,4 +27,4 @@
   transform: translate(-50%, -50%);
   pointer-events: none;
   z-index: 50;
-}
+} */
